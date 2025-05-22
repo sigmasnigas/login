@@ -1,0 +1,91 @@
+/* Resetowanie marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styl dla tła strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kontener formularza logowania */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stylizacja samego formularza */
+.login-box {
+    background-color: #fff;
+    padding: 50px; /* Zwiększamy padding, aby formularz był większy */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 350px; /* Zwiększamy szerokość formularza */
+}
+
+/* Nagłówek formularza */
+h2 {
+    margin-bottom: 30px; /* Zwiększamy margines, żeby nagłówek był oddzielony */
+    color: #333;
+    font-size: 24px; /* Zwiększamy rozmiar czcionki nagłówka */
+}
+
+/* Styl dla pól tekstowych */
+.textbox {
+    margin-bottom: 25px; /* Zwiększamy odstęp między polami */
+}
+
+.textbox input {
+    width: 100%;
+    padding: 15px; /* Zwiększamy padding w polu tekstowym */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px; /* Zwiększamy rozmiar czcionki w polach */
+}
+
+/* Styl przycisku */
+.btn {
+    background-color: #FFEB3B; /* Kolor żółty */
+    color: black;
+    padding: 15px 0; /* Zwiększamy padding, aby przycisk był większy */
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px; /* Zwiększamy rozmiar czcionki przycisku */
+    font-weight: bold; /* Pogrubiamy tekst przycisku */
+}
+
+.btn:hover {
+    background-color: #FBC02D; /* Zmiana na ciemniejszy żółty przy najechaniu */
+}
+
+/* Styl dla linku rejestracji */
+.register-link {
+    color: #FFEB3B; /* Kolor żółty */
+    text-decoration: none; /* Usuwamy podkreślenie */
+    font-size: 16px; /* Rozmiar czcionki */
+    font-weight: bold; /* Pogrubiamy tekst */
+}
+
+.register-link:hover {
+    color: #FBC02D; /* Zmiana koloru na ciemniejszy żółty po najechaniu */
+    text-decoration: underline; /* Podkreślenie linku po najechaniu */
+}
+
+/* Stylizacja dla błędów */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
